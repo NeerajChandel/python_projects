@@ -5,7 +5,8 @@
     Date;Time:      1st October, 2018; 23:45 hrs
     Passkey:        'Neeraj224'
 '''
-#   NOTE:   Want to add asynchronous skip-intro method [Do it after you learn it]
+#   NOTE:   Want to add asynchronous skip-intro method
+#   NOTE:   Too many sleep() calls - always a bad idea
 
 import sys      # for sys()
 import os       # for system("clear")
@@ -25,7 +26,7 @@ from termcolor import colored, cprint   #   for blinking text!
 #   ------------------- This is a little game of rock-paper-scissors I've tried to hack away
 #   ------------------- at. It's pretty clanky. It was made solely for the purpose of learning
 #   ------------------- and improving my Python skills. Please feel free to modify or distribute
-#   ------------------- the spurce code. And last but not the least, enjoy!
+#   ------------------- the source code. And last but not the least, enjoy!
 
 #   pre-defined values for the entities of the game
 '''
@@ -33,10 +34,9 @@ from termcolor import colored, cprint   #   for blinking text!
     RULES:
         Rock beats scissors; scissors beats paper(obviously);
         and paper beats rock.
-        So, 1 beats 3; 3 beats 2; 2 beats 1
 
 '''
-#   --------------------------------- User-defined functions' list ---------------------------------
+#   --------------------------------- User-defined functions ---------------------------------
 #   Colors: There are 8 colors - ANSI codes 30 to 37
 #   31 - red
 #   32 - green
